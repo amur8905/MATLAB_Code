@@ -1,0 +1,45 @@
+#name
+testWing
+
+#mach
+0.0             
+
+#symmetries data  
+1     0     0.0    
+
+#reference dimensions (area, chord, span)
+4.0   0.4   0.1   
+
+#reference location
+0.1   0.0   0.0     
+
+#parasitic drag coefficient
+0.020              
+
+
+
+#define surface geometry
+SURFACE
+Main Surface
+
+#number of chordwise panels, spacing of chordwise panels, [number of spanwise panels, spacing of spanwise panels]
+12 1.0 20 -1.5
+
+#angle of incidence
+ANGLE 
+0.0
+
+#section details
+SECTION
+
+#leading edge position (x,y,z), chord, incidence angle, [number of spanwise panels until next section, spanwise spacing of panels]
+0.0 0.0 0.0 	0.50 0 20 0.1
+
+NACA
+4412
+
+SECTION
+0.0 2.0 0.0 	0.50 0
+
+NACA
+4412

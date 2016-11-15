@@ -1,0 +1,8 @@
+LOAD avl\mdo.avl
+OPER
+x
+fe
+avl\mdoOut.dat
+o
+
+quit
